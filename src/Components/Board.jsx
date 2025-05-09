@@ -1,4 +1,4 @@
-import Squar from "./squar";
+import Squar from "./Squar";
 
 export default function Board({ squares, xIsNext, onPlay }) {
     const winner = calculateWinner(squares);
